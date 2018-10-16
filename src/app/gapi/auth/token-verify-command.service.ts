@@ -1,10 +1,11 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { map } from 'rxjs/operators';
+import { GapiModule } from '../gapi.module';
 import { GoogleAccessToken } from './google-access-token';
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: GapiModule
 })
 export class TokenVerifyCommand {
   private url = 'https://www.googleapis.com/oauth2/v3/tokeninfo?access_token=';

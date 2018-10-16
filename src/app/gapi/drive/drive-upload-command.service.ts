@@ -1,9 +1,10 @@
+import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { switchMap } from 'rxjs/operators';
+import { GapiModule } from '../gapi.module';
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: GapiModule
 })
 export class DriveUploadCommand {
   constructor(

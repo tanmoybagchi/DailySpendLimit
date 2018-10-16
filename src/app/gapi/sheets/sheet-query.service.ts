@@ -1,9 +1,10 @@
 import { HttpClient, HttpParams } from '@angular/common/http';
 import { Injectable } from '@angular/core';
+import { GapiModule } from '../gapi.module';
 import { GoogleSpreadsheet } from './google-spreadsheet';
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: GapiModule
 })
 export class SheetQuery {
   constructor(

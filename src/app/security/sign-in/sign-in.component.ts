@@ -1,8 +1,8 @@
 import { Component, HostBinding, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { Result } from '@app/core/result';
-import { GoogleAccessToken } from '@app/gapi/google-access-token';
-import { TokenVerifyCommand } from '@app/gapi/token-verify-command.service';
+import { GoogleAccessToken } from '@app/gapi/auth/google-access-token';
+import { TokenVerifyCommand } from '@app/gapi/auth/token-verify-command.service';
 import { AuthTokenService } from '@app/security/auth-token.service';
 import { environment } from '@env/environment';
 import { EMPTY } from 'rxjs';
@@ -84,7 +84,7 @@ export class SignInComponent implements OnInit {
 
     const exp = Date.now() + this.oauthToken.expires_in * 1000;
     this.authTokenService.setAuthToken(`${this.oauthToken.token_type} ${this.oauthToken.access_token}`, exp);
-    this.router.navigate(['recipes']);
+    this.router.navigate(['dashboard']);
   }
 
   private onError(result: Result) {

@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { AuthTokenService } from '@app/security/auth-token.service';
+import { Router } from '@angular/router';
 
 @Component({
   templateUrl: './homepage.component.html',
@@ -6,8 +8,23 @@ import { Component, OnInit } from '@angular/core';
   providers: []
 })
 export class HomepageComponent implements OnInit {
-  constructor() { }
+  constructor(
+    private authTokenService: AuthTokenService,
+    private router: Router,
+  ) { }
 
-  ngOnInit() { }
+  ngOnInit() {
+  }
 
+  onGetStarted() {
+    if (this.isAuthenticated()) {
+      this.router.navigate(['dashboard']);
+    } else {
+      this.router.navigate(['sign-in'], { replaceUrl: true });
+    }
+  }
+
+  private isAuthenticated() {
+    return !String.isNullOrWhitespace(this.authTokenService.getAuthToken());
+  }
 }
