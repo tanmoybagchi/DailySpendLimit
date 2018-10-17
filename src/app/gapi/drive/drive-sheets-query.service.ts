@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { DriveFilesQuery } from './drive-files-query.service';
+import { DriveFileSearchQuery } from './drive-file-search-query.service';
 import { GapiModule } from '../gapi.module';
 
 @Injectable({
@@ -7,7 +7,7 @@ import { GapiModule } from '../gapi.module';
 })
 export class DriveSheetsQuery {
   constructor(
-    private driveFilesQuery: DriveFilesQuery
+    private driveFilesQuery: DriveFileSearchQuery
   ) { }
 
   execute(name = '') {

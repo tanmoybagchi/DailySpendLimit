@@ -11,7 +11,7 @@ export class EventManagerService {
 
   constructor() { }
 
-  raise<T extends DomainEvent>(domainEvent: { new(...args: any[]): T } | T) {
+  raise<T extends DomainEvent>(domainEvent: { new(): T } | T) {
     if (domainEvent === null || domainEvent === undefined) {
       throw new Error('domainEvent missing');
     }
@@ -19,7 +19,7 @@ export class EventManagerService {
     let eventToRaise: T;
 
     if (typeof domainEvent === 'function') {
-      eventToRaise = new domainEvent();
+      eventToRaise = new (domainEvent as any)();
     } else if (typeof domainEvent === 'object') {
       eventToRaise = domainEvent;
     }
@@ -31,7 +31,7 @@ export class EventManagerService {
     this.eventSource.next(eventToRaise);
   }
 
-  handle<T extends DomainEvent>(domainEvent: { new(...args: any[]): T }) {
+  handle<T extends DomainEvent>(domainEvent: { new(): T }) {
     return this.eventSource.pipe(
       filter((value) => value instanceof domainEvent)
     );

@@ -1,13 +1,14 @@
 import { ValueObject } from './models';
 
 export class DomainHelper {
-  static adapt<T>(target: { new(): T } | T, source: string | object) {
+  static adapt<T>(target: { new(): T } | T, source: string | object): T {
     if (target === undefined || target === null) {
       return null;
     }
 
     if (typeof target === 'function') {
-      target = new target();
+      // Workaround for a Typescript bug https://github.com/Microsoft/TypeScript/issues/17388
+      target = new (target as any)();
     }
 
     const sourceJSON = typeof source === 'string' ?
@@ -22,7 +23,7 @@ export class DomainHelper {
       .filter(key => typeof target[key] === 'object' && target[key] instanceof ValueObject)
       .forEach(key => this.adapt(target[key], key in sourceJSON ? sourceJSON[key] : this.extractPrefixedObject(sourceJSON, `${key}_`)));
 
-    return target;
+    return target as T;
   }
 
   private static copyMatchingProperties(target, source) {

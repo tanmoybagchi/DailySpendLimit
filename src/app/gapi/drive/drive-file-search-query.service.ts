@@ -1,18 +1,33 @@
 import { HttpClient, HttpParams } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { DomainHelper } from '@app/core/domain/domain-helper';
-import { map } from 'rxjs/operators';
+import { LocalStorageService } from '@app/core/storage/local-storage.service';
+import { Observable, of } from 'rxjs';
+import { map, tap } from 'rxjs/operators';
 import { GapiModule } from '../gapi.module';
 
 @Injectable({
   providedIn: GapiModule
 })
-export class DriveFilesQuery {
+export class DriveFileSearchQuery {
+  private data: { name: string, result: DriveFileSearchQuery.Result[] }[] = [];
+  private observable: Observable<any>;
+  private initializing = false;
+
   constructor(
     private http: HttpClient,
-  ) { }
+    private storage: LocalStorageService,
+  ) {
+  }
 
   execute(name = '', parents: string[] = [], mimeType = '') {
+    if (String.hasData(name)) {
+      const item = this.data.find(x => x.name === name);
+      if (item) {
+        return of(item.result);
+      }
+    }
+
     const searchParams: string[] = [];
 
     if (String.hasData(name)) {
@@ -42,12 +57,13 @@ export class DriveFilesQuery {
     };
 
     return this.http.get(url, options).pipe(
-      map((x: { files: any[] }) => x.files.map(f => DomainHelper.adapt(DriveFilesQuery.Result, f)))
+      map((x: { files: any[] }) => x.files.map(f => DomainHelper.adapt(DriveFileSearchQuery.Result, f))),
+      tap(result => this.data.push({ name, result }))
     );
   }
 }
 
-export namespace DriveFilesQuery {
+export namespace DriveFileSearchQuery {
   export class Result {
     id = '';
     name = '';
