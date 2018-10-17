@@ -45,7 +45,7 @@ export class DriveFileSearchQuery {
     searchParams.push(`trashed=false`);
 
     const queryParams = {
-      q: encodeURIComponent(searchParams.join(' and ')),
+      q: searchParams.join(' and '),
       fields: 'files(id,name,modifiedTime,version)'
     };
 

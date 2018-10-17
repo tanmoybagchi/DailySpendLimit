@@ -1,8 +1,9 @@
 import { Injectable } from '@angular/core';
+import { Result } from '@app/core/result';
 import { DriveFileQuery } from '@app/gapi/drive/drive-file-query.service';
 import { DriveFileSearchQuery } from '@app/gapi/drive/drive-file-search-query.service';
 import { environment } from '@env/environment';
-import { EMPTY } from 'rxjs';
+import { throwError } from 'rxjs';
 import { switchMap } from 'rxjs/operators';
 
 @Injectable({
@@ -16,7 +17,9 @@ export class DailyLimitQuery {
 
   execute() {
     return this.driveFileSearchQuery.execute(environment.database).pipe(
-      switchMap(result => result.length === 0 ? EMPTY : this.driveFileQuery.execute(result[0].id))
+      switchMap(result => result.length === 0 ?
+        throwError(Result.CreateErrorResult('DatabaseNotFound')) :
+        this.driveFileQuery.execute(result[0].id))
     );
   }
 }

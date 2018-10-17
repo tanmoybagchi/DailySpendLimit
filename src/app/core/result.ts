@@ -5,6 +5,12 @@ export class Result<T= {}> {
   hasErrors = false;
   returnValue: T;
 
+  static CreateErrorResult(errorMessage: string, memberName?: string) {
+    const res = new Result();
+    res.addError(errorMessage, memberName);
+    return res;
+  }
+
   addError(errorMessage: string, memberName?: string): void {
     if (!String.isNullOrWhitespace(memberName)) {
       const camelCasedMemberName = memberName[0].toLowerCase() + memberName.slice(1);
