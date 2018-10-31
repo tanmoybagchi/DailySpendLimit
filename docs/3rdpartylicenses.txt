@@ -870,17 +870,17 @@ material-helpers
 
 @angular/material/toolbar
 
-@angular/material/core
-
-@angular/material/list
-
-@angular/material/progress-spinner
-
 @angular/material/form-field
+
+@angular/material/core
 
 @angular/material/select
 
 @angular/material/card
+
+@angular/material/progress-spinner
+
+@angular/material/list
 
 @angular/flex-layout
 MIT
