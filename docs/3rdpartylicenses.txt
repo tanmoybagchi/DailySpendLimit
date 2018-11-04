@@ -911,6 +911,9 @@ THE SOFTWARE.
 
 @angular/material/menu
 
+@angular/service-worker
+MIT
+
 zone.js
 MIT
 The MIT License

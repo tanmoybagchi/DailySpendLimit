@@ -1,0 +1,119 @@
+{
+  "configVersion": 1,
+  "index": "/DailySpendLimit/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "/DailySpendLimit/index.html",
+        "/DailySpendLimit/main.a8ab2acb9ffd70156448.js",
+        "/DailySpendLimit/polyfills.ada13a984941328c4d6e.js",
+        "/DailySpendLimit/runtime.ec2944dd8b20ec099bf3.js",
+        "/DailySpendLimit/scripts.b8427f319694de3a294c.js",
+        "/DailySpendLimit/styles.e86150a09a000c9728eb.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "/DailySpendLimit/MaterialIcons-Regular.012cf6a10129e2275d79.woff",
+        "/DailySpendLimit/MaterialIcons-Regular.570eb83859dc23dd0eec.woff2",
+        "/DailySpendLimit/MaterialIcons-Regular.a37b0c01c0baf1888ca8.ttf",
+        "/DailySpendLimit/MaterialIcons-Regular.e79bfd88537def476913.eot",
+        "/DailySpendLimit/Roboto-Black.313a65630d341645c13e.woff",
+        "/DailySpendLimit/Roboto-Black.59eb3601394dd87f30f8.woff2",
+        "/DailySpendLimit/Roboto-BlackItalic.cc2fadc3928f2f223418.woff",
+        "/DailySpendLimit/Roboto-BlackItalic.f75569f8a5fab0893fa7.woff2",
+        "/DailySpendLimit/Roboto-Bold.50d75e48e0a3ddab1dd1.woff",
+        "/DailySpendLimit/Roboto-Bold.b52fac2bb93c5858f3f2.woff2",
+        "/DailySpendLimit/Roboto-BoldItalic.4fe0f73cc919ba2b7a3c.woff",
+        "/DailySpendLimit/Roboto-BoldItalic.94008e69aaf05da75c0b.woff2",
+        "/DailySpendLimit/Roboto-Light.c73eb1ceba3321a80a0a.woff",
+        "/DailySpendLimit/Roboto-Light.d26871e8149b5759f814.woff2",
+        "/DailySpendLimit/Roboto-LightItalic.13efe6cbc10b97144a28.woff",
+        "/DailySpendLimit/Roboto-LightItalic.e8eaae902c3a4dacb9a5.woff2",
+        "/DailySpendLimit/Roboto-Medium.1d6594826615607f6dc8.woff",
+        "/DailySpendLimit/Roboto-Medium.90d1676003d9c28c0499.woff2",
+        "/DailySpendLimit/Roboto-MediumItalic.13ec0eb5bdb821ff4930.woff2",
+        "/DailySpendLimit/Roboto-MediumItalic.83e114c316fcc3f23f52.woff",
+        "/DailySpendLimit/Roboto-Regular.35b07eb2f8711ae08d1f.woff",
+        "/DailySpendLimit/Roboto-Regular.73f0a88bbca1bec19fb1.woff2",
+        "/DailySpendLimit/Roboto-RegularItalic.4357beb823a5f8d65c26.woff2",
+        "/DailySpendLimit/Roboto-RegularItalic.f5902d5ef961717ed263.woff",
+        "/DailySpendLimit/Roboto-Thin.ad538a69b0e8615ed041.woff2",
+        "/DailySpendLimit/Roboto-Thin.d3b47375afd904983d9b.woff",
+        "/DailySpendLimit/Roboto-ThinItalic.5b4a33e176ff736a74f0.woff2",
+        "/DailySpendLimit/Roboto-ThinItalic.8a96edbbcd9a6991d793.woff",
+        "/DailySpendLimit/assets/homepage.jpg",
+        "/DailySpendLimit/assets/icons/icon-512x512.png",
+        "/DailySpendLimit/great-vibes-latin-400.164ad73d637797a34fa3.woff",
+        "/DailySpendLimit/great-vibes-latin-400.4c785fd985fcebec6a9b.woff2"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/DailySpendLimit/MaterialIcons-Regular.012cf6a10129e2275d79.woff": "c6c953c2ccb2ca9abb21db8dbf473b5a435f0082",
+    "/DailySpendLimit/MaterialIcons-Regular.570eb83859dc23dd0eec.woff2": "09963592e8c953cc7e14e3fb0a5b05d5042e8435",
+    "/DailySpendLimit/MaterialIcons-Regular.a37b0c01c0baf1888ca8.ttf": "fc05de31234e0090f7ddc28ce1b23af4026cb1da",
+    "/DailySpendLimit/MaterialIcons-Regular.e79bfd88537def476913.eot": "26fb8cecb5512223277b4d290a24492a0f09ede1",
+    "/DailySpendLimit/Roboto-Black.313a65630d341645c13e.woff": "c82deec15ceac108defa33eecdd610032cbfbe8b",
+    "/DailySpendLimit/Roboto-Black.59eb3601394dd87f30f8.woff2": "6610089bd2ab6cfd41d16777ad1b15994d429bb3",
+    "/DailySpendLimit/Roboto-BlackItalic.cc2fadc3928f2f223418.woff": "db79ebd0705bbb53d446404fada96654b1c6c027",
+    "/DailySpendLimit/Roboto-BlackItalic.f75569f8a5fab0893fa7.woff2": "c8d1382f27b7d8710f1a0d0fc85f9f1f1e040f52",
+    "/DailySpendLimit/Roboto-Bold.50d75e48e0a3ddab1dd1.woff": "e4774be50a91e83c4fdc647e27342d03a29fd215",
+    "/DailySpendLimit/Roboto-Bold.b52fac2bb93c5858f3f2.woff2": "977c5749fd06192dac5224811ed69e53a6b2b47d",
+    "/DailySpendLimit/Roboto-BoldItalic.4fe0f73cc919ba2b7a3c.woff": "7cf155c7b7e2995938020d832aed5084d87e3515",
+    "/DailySpendLimit/Roboto-BoldItalic.94008e69aaf05da75c0b.woff2": "46bf6b6919762694521c78dbf44ce7d4f605b429",
+    "/DailySpendLimit/Roboto-Light.c73eb1ceba3321a80a0a.woff": "3ea2c95e21cc88d82bb111c99883484c64d657db",
+    "/DailySpendLimit/Roboto-Light.d26871e8149b5759f814.woff2": "6b773b76e0a6708ee4040733cd0c83278543864a",
+    "/DailySpendLimit/Roboto-LightItalic.13efe6cbc10b97144a28.woff": "f46b38a20fb80034e16204360a08f000058aa1ad",
+    "/DailySpendLimit/Roboto-LightItalic.e8eaae902c3a4dacb9a5.woff2": "91fa61a48fd8f7e28431bee0e9c7fb34026c0cdf",
+    "/DailySpendLimit/Roboto-Medium.1d6594826615607f6dc8.woff": "3caf9bcd149c12e6abfe03d309e931d4ca22d4a8",
+    "/DailySpendLimit/Roboto-Medium.90d1676003d9c28c0499.woff2": "e24a020df79c6ce3bcc4a6a33930f697b8e1d6b2",
+    "/DailySpendLimit/Roboto-MediumItalic.13ec0eb5bdb821ff4930.woff2": "6f54c892be079270707d179eca6ab89568d32934",
+    "/DailySpendLimit/Roboto-MediumItalic.83e114c316fcc3f23f52.woff": "17e16b5e37a29466a6002cd54c7a398b097326e2",
+    "/DailySpendLimit/Roboto-Regular.35b07eb2f8711ae08d1f.woff": "96eca9934dff83a12371dd54fc6c1bf29256815a",
+    "/DailySpendLimit/Roboto-Regular.73f0a88bbca1bec19fb1.woff2": "463a07f5c66bf14e6d9d6e0f6d5e3fd3cb11f4ec",
+    "/DailySpendLimit/Roboto-RegularItalic.4357beb823a5f8d65c26.woff2": "b8b605f7cc9ff6ec06814cdc2140c175fbefcb72",
+    "/DailySpendLimit/Roboto-RegularItalic.f5902d5ef961717ed263.woff": "a51b4110c32440d54c5f299b8dda8e3b38b8acaa",
+    "/DailySpendLimit/Roboto-Thin.ad538a69b0e8615ed041.woff2": "58dd79e031022a7315a55cec1f128578b1debbfb",
+    "/DailySpendLimit/Roboto-Thin.d3b47375afd904983d9b.woff": "779d5e76694d26f22c8721f1ae99501c3a1e8bd1",
+    "/DailySpendLimit/Roboto-ThinItalic.5b4a33e176ff736a74f0.woff2": "49e649e6e4b4cc30e6edcf237a25ef0c58d85e8e",
+    "/DailySpendLimit/Roboto-ThinItalic.8a96edbbcd9a6991d793.woff": "7b52f34f7aef7c5f9e7103d51de1e692e9ece6b0",
+    "/DailySpendLimit/assets/homepage.jpg": "5b06b40706cb0148b8e90527dfebacbc03d8f495",
+    "/DailySpendLimit/assets/icons/icon-512x512.png": "e9812727487d8786f9256051ba96b32008915d18",
+    "/DailySpendLimit/great-vibes-latin-400.164ad73d637797a34fa3.woff": "09b76703b4126097f52b8a226fb8823179654e7b",
+    "/DailySpendLimit/great-vibes-latin-400.4c785fd985fcebec6a9b.woff2": "21dd7a05d52a78c86169f4901381e05e839554a9",
+    "/DailySpendLimit/index.html": "25b7b3cde4fb416ec7c9d83ef3a33f2d38976a87",
+    "/DailySpendLimit/main.a8ab2acb9ffd70156448.js": "2431561f281588cd232ed7fd44cdfa59409476b5",
+    "/DailySpendLimit/polyfills.ada13a984941328c4d6e.js": "bbc796003aa10114b04f900dbedd4492006e0165",
+    "/DailySpendLimit/runtime.ec2944dd8b20ec099bf3.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
+    "/DailySpendLimit/scripts.b8427f319694de3a294c.js": "48ca11bd21dd62bdfe267a9cda1d0bc90bae3e3b",
+    "/DailySpendLimit/styles.e86150a09a000c9728eb.css": "1e74a005fdb2a700ba058094eaaafe673d90b765"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
