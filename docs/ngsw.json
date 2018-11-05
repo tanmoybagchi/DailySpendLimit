@@ -8,11 +8,10 @@
       "updateMode": "prefetch",
       "urls": [
         "/DailySpendLimit/index.html",
-        "/DailySpendLimit/main.a8ab2acb9ffd70156448.js",
+        "/DailySpendLimit/main.3baeb54e32564f5a9957.js",
         "/DailySpendLimit/polyfills.ada13a984941328c4d6e.js",
         "/DailySpendLimit/runtime.ec2944dd8b20ec099bf3.js",
-        "/DailySpendLimit/scripts.b8427f319694de3a294c.js",
-        "/DailySpendLimit/styles.e86150a09a000c9728eb.css"
+        "/DailySpendLimit/styles.01f5a4f867643f9453f2.css"
       ],
       "patterns": []
     },
@@ -91,12 +90,11 @@
     "/DailySpendLimit/assets/icons/icon-512x512.png": "e9812727487d8786f9256051ba96b32008915d18",
     "/DailySpendLimit/great-vibes-latin-400.164ad73d637797a34fa3.woff": "09b76703b4126097f52b8a226fb8823179654e7b",
     "/DailySpendLimit/great-vibes-latin-400.4c785fd985fcebec6a9b.woff2": "21dd7a05d52a78c86169f4901381e05e839554a9",
-    "/DailySpendLimit/index.html": "25b7b3cde4fb416ec7c9d83ef3a33f2d38976a87",
-    "/DailySpendLimit/main.a8ab2acb9ffd70156448.js": "2431561f281588cd232ed7fd44cdfa59409476b5",
+    "/DailySpendLimit/index.html": "67993de9dec1f93a72cd8170b6a5e2d3d5e9771d",
+    "/DailySpendLimit/main.3baeb54e32564f5a9957.js": "2ba50a3a1376a8de5b04728edafbfb87be092eea",
     "/DailySpendLimit/polyfills.ada13a984941328c4d6e.js": "bbc796003aa10114b04f900dbedd4492006e0165",
     "/DailySpendLimit/runtime.ec2944dd8b20ec099bf3.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
-    "/DailySpendLimit/scripts.b8427f319694de3a294c.js": "48ca11bd21dd62bdfe267a9cda1d0bc90bae3e3b",
-    "/DailySpendLimit/styles.e86150a09a000c9728eb.css": "1e74a005fdb2a700ba058094eaaafe673d90b765"
+    "/DailySpendLimit/styles.01f5a4f867643f9453f2.css": "6ea232aa835eb1f45ea07c079b2aa928d9f51bcd"
   },
   "navigationUrls": [
     {
