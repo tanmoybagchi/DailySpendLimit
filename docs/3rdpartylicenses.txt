@@ -25,7 +25,7 @@ SOFTWARE.
 typeface-great-vibes
 MIT
 
-material-design-icons
+material-icon-font
 Apache-2.0
 
                                  Apache License
@@ -782,9 +782,6 @@ Apache-2.0
  limitations under the License.
  
 
-
-@angular/compiler
-MIT
 
 @angular/core
 MIT
