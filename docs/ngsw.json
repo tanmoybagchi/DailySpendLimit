@@ -8,7 +8,7 @@
       "updateMode": "prefetch",
       "urls": [
         "/DailySpendLimit/index.html",
-        "/DailySpendLimit/main.dbc0dee3e85f982a06ec.js",
+        "/DailySpendLimit/main.7d6b1a41ebabc292ea47.js",
         "/DailySpendLimit/polyfills.ada13a984941328c4d6e.js",
         "/DailySpendLimit/runtime.ec2944dd8b20ec099bf3.js",
         "/DailySpendLimit/styles.d6f4fbf65b28a1c78f6a.css"
@@ -90,8 +90,8 @@
     "/DailySpendLimit/assets/icons/icon-512x512.png": "e9812727487d8786f9256051ba96b32008915d18",
     "/DailySpendLimit/great-vibes-latin-400.164ad73d637797a34fa3.woff": "09b76703b4126097f52b8a226fb8823179654e7b",
     "/DailySpendLimit/great-vibes-latin-400.4c785fd985fcebec6a9b.woff2": "21dd7a05d52a78c86169f4901381e05e839554a9",
-    "/DailySpendLimit/index.html": "4dac1143c2ddf801738053f27c60635203cc905a",
-    "/DailySpendLimit/main.dbc0dee3e85f982a06ec.js": "f0d501101a73f7790952f0045d75babe00c5a378",
+    "/DailySpendLimit/index.html": "9a735b45cf734d7aa6cf800b7083c25eb71c78d9",
+    "/DailySpendLimit/main.7d6b1a41ebabc292ea47.js": "fd8568ff8a9254a1e5c776bce89ae2baa18bd90e",
     "/DailySpendLimit/polyfills.ada13a984941328c4d6e.js": "bbc796003aa10114b04f900dbedd4492006e0165",
     "/DailySpendLimit/runtime.ec2944dd8b20ec099bf3.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
     "/DailySpendLimit/styles.d6f4fbf65b28a1c78f6a.css": "f33e3d5846993a26d267a61d96b62091f34a8048"
