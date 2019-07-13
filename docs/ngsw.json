@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1562333783166,
+  "timestamp": 1563030760259,
   "index": "/DailySpendLimit/index.html",
   "assetGroups": [
     {
@@ -9,10 +9,12 @@
       "updateMode": "prefetch",
       "urls": [
         "/DailySpendLimit/index.html",
-        "/DailySpendLimit/main.4926f288b70ed6a019be.js",
-        "/DailySpendLimit/polyfills-es5.dd93e67f6af69a8717fb.js",
-        "/DailySpendLimit/polyfills.7a002a2668f37d2afbb0.js",
-        "/DailySpendLimit/runtime.a8c9c2928baa49aa82ad.js",
+        "/DailySpendLimit/main-es2015.738952451ba76eebfaaf.js",
+        "/DailySpendLimit/main-es5.88d09b9d3bd37a577747.js",
+        "/DailySpendLimit/polyfills-es2015.5581eb5ca3860a631b8d.js",
+        "/DailySpendLimit/polyfills-es5.ca630850033d01e39ed5.js",
+        "/DailySpendLimit/runtime-es2015.703a23e48ad83c851e49.js",
+        "/DailySpendLimit/runtime-es5.465c2333d355155ec5f3.js",
         "/DailySpendLimit/styles.eaf8270d6fa413d4d563.css"
       ],
       "patterns": []
@@ -92,11 +94,13 @@
     "/DailySpendLimit/assets/icons/icon-512x512.png": "e9812727487d8786f9256051ba96b32008915d18",
     "/DailySpendLimit/great-vibes-latin-400.15d8dd2bf3b066290ec0.woff": "2cd10227e58ea02510de2b3363803c662218835e",
     "/DailySpendLimit/great-vibes-latin-400.cd8416afbf4155a10f24.woff2": "7373ca191f5e6a879d59c3f70215dcadac5b26cf",
-    "/DailySpendLimit/index.html": "fd06507b8e68ee01f66ab437587003556260f0b9",
-    "/DailySpendLimit/main.4926f288b70ed6a019be.js": "bd0ee8e44b28905c72111e48adf760b8386fb61e",
-    "/DailySpendLimit/polyfills-es5.dd93e67f6af69a8717fb.js": "45b4a7b5112bbe1cfb09c0fd2b4a1cfde25db9d1",
-    "/DailySpendLimit/polyfills.7a002a2668f37d2afbb0.js": "4520ce8fa81a6d8d068dedde05fd7b5d46962905",
-    "/DailySpendLimit/runtime.a8c9c2928baa49aa82ad.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
+    "/DailySpendLimit/index.html": "cbdc7dfd2624fc891d29bcc2e2cf1da4a1e8fceb",
+    "/DailySpendLimit/main-es2015.738952451ba76eebfaaf.js": "87db54b8af404cfdd3b8ea0b5e6940e6a98c1cb5",
+    "/DailySpendLimit/main-es5.88d09b9d3bd37a577747.js": "c63cac2ccc012d3a37b9a1b9be79b81a257a5169",
+    "/DailySpendLimit/polyfills-es2015.5581eb5ca3860a631b8d.js": "a7ed1f21fccde95d06d73f4cd530aa1199fdbd77",
+    "/DailySpendLimit/polyfills-es5.ca630850033d01e39ed5.js": "2ea80c0b3d80294e4ee191777027c2f814c81c4a",
+    "/DailySpendLimit/runtime-es2015.703a23e48ad83c851e49.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
+    "/DailySpendLimit/runtime-es5.465c2333d355155ec5f3.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
     "/DailySpendLimit/styles.eaf8270d6fa413d4d563.css": "a5638e6b001d67288c3cf05870fb834d8e6e9b76"
   },
   "navigationUrls": [
